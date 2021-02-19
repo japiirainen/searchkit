@@ -1,3 +1,4 @@
+foo
 ## What is Searchkit?
 [<img src="https://circleci.com/gh/searchkit/searchkit.png?style=shield"/>](https://circleci.com/gh/searchkit/searchkit)
 [![npm version](https://badge.fury.io/js/searchkit.svg)](https://badge.fury.io/js/searchkit)
