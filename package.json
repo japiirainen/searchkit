@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "name": "searchkit",
+  "private": false,
+  "name": "puheet-searchkit",
   "keywords": [
     "elasticsearch",
     "react",
@@ -12,18 +12,18 @@
   ],
   "homepage": "http://www.searchkit.co",
   "bugs": {
-    "url": "https://github.com/searchkit/searchkit/issues"
+    "url": "https://github.com/japiirainen/searchkit/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/searchkit/searchkit.git"
+    "url": "https://github.com/japiirainen/searchkit.git"
   },
   "scripts": {
     "lerna": "lerna",
     "build": "lerna run build",
     "test": "lerna run test",
     "clean": "lerna clean",
-    "publish": "node ./scripts/deploy.js",
+    "publish": "BRANCH=puheet node ./scripts/deploy.js",
     "lint": "eslint . --ext js,ts,tsx --fix",
     "prettier": "prettier --write **/*.ts, **/*.tsx"
   },
@@ -84,5 +84,6 @@
       "pre-commit": "lint-staged",
       "pre-push": "yarn test"
     }
-  }
+  },
+  "version": "2.4.5"
 }
